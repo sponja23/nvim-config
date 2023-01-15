@@ -50,4 +50,7 @@ return require("packer").startup(function(use)
         },
         tag = "nightly"
     }
+
+    -- Theme
+    use "tanvirtin/monokai.nvim"
 end)
