@@ -40,4 +40,14 @@ return require("packer").startup(function(use)
 
     -- Git management
     use "tpope/vim-fugitive"
+
+
+    -- File explorer
+    use {
+        "nvim-tree/nvim-tree.lua",
+        requires = {
+            "nvim-tree/nvim-web-devicons",
+        },
+        tag = "nightly"
+    }
 end)
