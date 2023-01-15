@@ -53,4 +53,6 @@ return require("packer").startup(function(use)
 
     -- Theme
     use "tanvirtin/monokai.nvim"
+    -- Fancy status line
+    use "nvim-lualine/lualine.nvim"
 end)
