@@ -1,11 +1,11 @@
 local builtin = require("telescope.builtin")
 
-require('telescope').setup {
+require("telescope").setup {
     defaults = {
         mappings = {
             i = {
-                ['<C-u>'] = false,
-                ['<C-d>'] = false,
+                ["<C-u>"] = false,
+                ["<C-d>"] = false,
             },
         },
     },
