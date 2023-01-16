@@ -88,7 +88,7 @@ null_ls.setup({
 -- See mason-null-ls.nvim's documentation for more details:
 -- https://github.com/jay-babu/mason-null-ls.nvim#setup
 require("mason-null-ls").setup({
-    ensure_installed = {"mypy", "black", "isort"},
+    ensure_installed = {"mypy", "black", "isort", "prettier"},
     automatic_installation = false, -- You can still set this to `true`
     automatic_setup = true,
 })
