@@ -59,4 +59,7 @@ return require("packer").startup(function(use)
     use "tanvirtin/monokai.nvim"
     -- Fancy status line
     use "nvim-lualine/lualine.nvim"
+
+    -- Impatient (improves loading time)
+    use "lewis6991/impatient.nvim"
 end)

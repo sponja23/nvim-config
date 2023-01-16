@@ -25,3 +25,4 @@ This repository contains my neovim configuration files.
 - [`nvim-tree`](https://github.com/nvim-tree.lua)
 - [`monokai` theme](https://github.com/tanvirtin/monokai.nvim)
 - [`lualine`](https://github.com/nvim-lualine/lualine.nvim)
+- [`impatient`](https://github.com/lewis6991/impatient.nvim)
