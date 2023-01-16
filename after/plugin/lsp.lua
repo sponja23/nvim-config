@@ -72,4 +72,32 @@ vim.diagnostic.config({
     virtual_text = true,
 })
 
+-- Setup null-ls
+local null_ls = require("null-ls")
+local null_opts = lsp.build_options("null-ls", {})
 
+null_ls.setup({
+    on_attach = function(client, bufnr)
+        null_opts.on_attach(client, bufnr)
+    end,
+    sources = {
+        -- You can add tools not supported by mason.nvim
+    }
+})
+
+-- See mason-null-ls.nvim's documentation for more details:
+-- https://github.com/jay-babu/mason-null-ls.nvim#setup
+require("mason-null-ls").setup({
+    ensure_installed = {"mypy", "black", "isort"},
+    automatic_installation = false, -- You can still set this to `true`
+    automatic_setup = true,
+})
+
+-- Required when `automatic_setup` is true
+require("mason-null-ls").setup_handlers()
+
+-- Formatting keybind
+local format = function()
+    vim.lsp.buf.format { async=true }
+end
+vim.keymap.set("n", "<leader>ff", format, { desc = "[F]ormat [F]ile" })

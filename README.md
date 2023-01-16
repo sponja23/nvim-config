@@ -17,6 +17,7 @@ This repository contains my neovim configuration files.
   - [`nvim-lspconfig`](https://github.com/neovim/nvim-lspconfig)
   - [`mason`](https://github.com/williamboman/mason.nvim) 
   - [`nvim-cmp`](https://github.com/hrsh7th/nvim-cmp)
+  - [`null-ls`](https://github.com/jose-elias-alvarez/null-ls.nvim)
 - Snippets:
   - [`LuaSnip`](https://github.com/L3MON4D3/LuaSnip)
   - [`friendly-snippets`](https://github.com/rafamadriz/friendly-snippets)
