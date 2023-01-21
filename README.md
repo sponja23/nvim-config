@@ -28,3 +28,4 @@ This repository contains my neovim configuration files.
 - [`impatient`](https://github.com/lewis6991/impatient.nvim)
 - [`gitsigns`](https://github.com/lewis6991/gitsigns.nvim)
 - [`leap`](https://github.com/ggandor/leap.nvim)
+- [`VimBeGood`](https://github.com/ThePrimeagen/vim-be-good)
