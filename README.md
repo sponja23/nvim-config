@@ -27,3 +27,4 @@ This repository contains my neovim configuration files.
 - [`lualine`](https://github.com/nvim-lualine/lualine.nvim)
 - [`impatient`](https://github.com/lewis6991/impatient.nvim)
 - [`gitsigns`](https://github.com/lewis6991/gitsigns.nvim)
+- [`leap`](https://github.com/ggandor/leap.nvim)

@@ -63,4 +63,7 @@ return require("packer").startup(function(use)
 
     -- Impatient (improves loading time)
     use "lewis6991/impatient.nvim"
+
+    -- Leap
+    use "ggandor/leap.nvim"
 end)
