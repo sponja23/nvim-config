@@ -68,4 +68,6 @@ return require("packer").startup(function(use)
     use "ggandor/leap.nvim"
 
     use "ThePrimeagen/vim-be-good"
+
+    use "lervag/vimtex"
 end)
