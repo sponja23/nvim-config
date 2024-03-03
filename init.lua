@@ -24,6 +24,9 @@ vim.opt.smartcase = true
 -- Keep signcolumn on
 vim.opt.signcolumn = 'yes'
 
+-- Don't show mode: this is shown in the statusline
+vim.opt.showmode = false
+
 -- Default split directions
 vim.opt.splitright = true
 vim.opt.splitbelow = true
