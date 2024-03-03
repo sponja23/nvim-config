@@ -6,7 +6,12 @@ return {
     dependencies = {
         "nvim-tree/nvim-web-devicons",
     },
-    config = function()
-        require("nvim-tree").setup {}
-    end,
+    keys = {
+        { "<C-b>", "<cmd>NvimTreeToggle<cr>", desc = "Toggle file tree" },
+    },
+    opts = {
+        view = {
+            side = "right",
+        }
+    }
 }
