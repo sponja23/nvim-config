@@ -19,10 +19,10 @@ return {
             position = "float",
         },
         buffers = {
-            follow_current_file = true,
+            follow_current_file = { enabled = true },
         },
         filesystem = {
-            follow_current_file = true,
+            follow_current_file = { enabled = true },
             filtered_items = {
                 hide_dotfiles = false,
                 hide_gitignored = false,
