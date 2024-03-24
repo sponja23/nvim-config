@@ -100,16 +100,20 @@ return {
         local servers = {
             -- Python
             pylsp = {
-                plugins = {
-                    ruff = {
-                        enabled = true,
-                        formatEnabled = true,
-                        format = { "I" },
-                        unsafeFixes = false,
-                    },
-                    mypy = {
-                        enabled = true,
-                        live_mode = true,
+                settings = {
+                    pylsp = {
+                        plugins = {
+                            ruff = {
+                                enabled = true,
+                                formatEnabled = true,
+                                format = { "I" },
+                                unsafeFixes = false,
+                            },
+                            mypy = {
+                                enabled = true,
+                                live_mode = true,
+                            },
+                        },
                     },
                 },
             },
