@@ -1,10 +1,7 @@
 return {
-    "tanvirtin/monokai.nvim", version = "*",
+    "cpea2506/one_monokai.nvim",
+    version = "*",
     lazy = false,
     priority = 1000,
-    opts = function(plugin)
-        return {
-            palette = plugin.pro
-        }
-    end
+    opts = {},
 }

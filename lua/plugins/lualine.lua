@@ -5,7 +5,7 @@ return {
     lazy = false,
     opts = {
         options = {
-            theme = "ayu_mirage"
-        }
-    }
+            theme = "one_monokai",
+        },
+    },
 }
